@@ -1,0 +1,24 @@
+{
+  "name": "contenful_content_model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=app"
+  },
+  "config": {
+    "accessToken": "SLjTo0-TonJJh-tCHZFdx8jpUlZmeXNJvFsFPDotcrs",
+    "space": "vr47kl32v074"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.6.0",
+    "@google-cloud/storage": "^5.1.2",
+    "body-parser": "^1.19.0",
+    "contentful-export": "^7.10.5",
+    "express": "^4.17.1"
+  }
+}
